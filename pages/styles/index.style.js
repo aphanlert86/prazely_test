@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const SettingsContainer = styled.div`
   a {
     color: #db2828;
-    cursor: pointer;
 
     &.action-disabled {
       color: grey;
@@ -22,6 +21,12 @@ export const SettingsContainer = styled.div`
 
       .ui.input {
         flex-grow: 1;
+
+        &.secondary {
+          input {
+            color: rgba(0, 0, 0, 0.6);
+          }
+        }
       }
     }
   }

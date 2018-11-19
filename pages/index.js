@@ -78,7 +78,7 @@ class Index extends Component {
                         <Grid.Column width={12}>
                           <Form.Field inline>
                             <label>First and last name</label>
-                            <Input placeholder="First name" />
+                            <Input placeholder="Abhiisith Phanlert" />
                           </Form.Field>
                         </Grid.Column>
                       </Grid.Row>
@@ -86,7 +86,10 @@ class Index extends Component {
                         <Grid.Column width={12}>
                           <Form.Field inline>
                             <label>Email</label>
-                            <Input placeholder="First name" />
+                            <Input
+                              placeholder="aphanlert86@gmail.com"
+                              type="email"
+                            />
                           </Form.Field>
                         </Grid.Column>
                         <Grid.Column width={4}>
@@ -104,15 +107,15 @@ class Index extends Component {
                         <Grid.Column width={12}>
                           <Form.Field inline>
                             <label>Current password</label>
-                            <Input placeholder="First name" />
+                            <Input type="password" />
                           </Form.Field>
                           <Form.Field inline>
                             <label>New password</label>
-                            <Input placeholder="First name" />
+                            <Input type="password" className="secondary" />
                           </Form.Field>
                           <Form.Field inline>
                             <label>Confirm password</label>
-                            <Input placeholder="First name" />
+                            <Input type="password" className="secondary" />
                           </Form.Field>
                         </Grid.Column>
                       </Grid.Row>
