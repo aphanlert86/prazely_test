@@ -4,6 +4,10 @@ export const SettingsContainer = styled.div`
   a {
     color: #db2828;
     cursor: pointer;
+
+    &.action-disabled {
+      color: grey;
+    }
   }
 
   form {
@@ -33,8 +37,9 @@ export const SettingsContainer = styled.div`
   }
 
   .user-image-small {
-    width: 100%;
-    height: auto;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+    margin: 0 auto;
   }
 `;
